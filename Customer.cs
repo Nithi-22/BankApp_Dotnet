@@ -78,7 +78,7 @@ public class Customer:Bank
         }
         if(flag==0){
         Console.WriteLine("Chance is over,you have crossed 5 times");
-        Console.WriteLine("Kindly wait for 60 secs");
+        Console.WriteLine("Kindly waitt for 60 secs");
         System.Threading.Thread.Sleep(60000);
         login();
 
